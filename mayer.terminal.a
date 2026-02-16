@@ -1,0 +1,20 @@
+import os
+import datetime
+
+def boot_mayer():
+    # Logo ASCII professionale per MAYER
+    logo = """
+    | \/ |  / \  \ \   / / ____|  _ \ 
+    | |\/| | / _ \  \ \ / /|  _| | |_) |
+    | |  | |/ ___ \  \ V / | |___|  _ < 
+    |_|  |_/_/   \_\  |_|  |_____|_| \_\ 
+    """
+    print(logo)
+    print("-" * 40)
+    print(f" DEVICE: DELL G15 | USER: M. SANTANGELO")
+    print(f" SYSTEM BOOT: {datetime.datetime.now().strftime('%d/%m/%Y %H:%M')}")
+    print(f" STATUS: MAYER SYSTEMS ONLINE")
+    print("-" * 40)
+
+if __name__ == "__main__":
+    boot_mayer()
